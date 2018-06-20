@@ -17,3 +17,7 @@ The third task was to write in a text-field our name and this is going to replac
 ### 4. Putting an image
 
 The fourth task was to put an image in the screen.
+
+### 5. A new View Controller
+
+The fifth task was to add a new View Controller, and added to a Navigation Controller to access de app from this element.

@@ -39,6 +39,12 @@
     
     [self presentViewController:alert animated:YES completion:nil]; */
     
-    [self.myLabel setText:@"I have pushed the button"];
+    // This is one way to do the example of changing the text label with what we write en the textfield
+    /* NSString *name = self.textField.text;
+    NSString *fullName = [NSString stringWithFormat:@"How are you, %@?", name];
+    [self.myLabel setText:fullName]; */
+    
+    // This is a one line program from what we did before
+    [self.myLabel setText:[NSString stringWithFormat:@"How are you, %@?", self.textField.text]];
 }
 @end

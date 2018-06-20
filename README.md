@@ -13,3 +13,7 @@ The second task was to push the button and change a pre-made label.
 ### 3. Writing a new label
 
 The third task was to write in a text-field our name and this is going to replace the text label when we push the button.
+
+### 4. Putting an image
+
+The fourth task was to put an image in the screen.

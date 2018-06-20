@@ -27,7 +27,7 @@
 
 
 - (IBAction)showMessage:(UIButton *)sender {
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"My first app in Objective-C"
+    /* UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"My first app in Objective-C"
                                                                    message:@"Hi everyone. I am learning to program in iOS with Objective-C"
                                                             preferredStyle:UIAlertControllerStyleAlert];
     
@@ -37,6 +37,8 @@
     
     [alert addAction:okAction];
     
-    [self presentViewController:alert animated:YES completion:nil];
+    [self presentViewController:alert animated:YES completion:nil]; */
+    
+    [self.myLabel setText:@"I have pushed the button"];
 }
 @end

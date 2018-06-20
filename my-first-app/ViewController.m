@@ -26,4 +26,17 @@
 }
 
 
+- (IBAction)showMessage:(UIButton *)sender {
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"My first app in Objective-C"
+                                                                   message:@"Hi everyone. I am learning to program in iOS with Objective-C"
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK"
+                                                       style:UIAlertActionStyleDefault
+                                                     handler:nil];
+    
+    [alert addAction:okAction];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
 @end
